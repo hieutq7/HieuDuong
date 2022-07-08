@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Nhúng file CSS -->
+<link rel="stylesheet" href="CSS/login.css" />
+
+</head>
+<body>
+<!-- Nhúng file JavaScript -->
+<script language="javascript" src="JS/login.js"></script>
+
+<form class="form" action="index.html" method="POST" onsubmit="return validate()">
+<div class="register">
+<h1>Đăng nhập</h1>
+<hr>
+<label for="username"></label>
+<input type="text" placeholder="Username" name="username" id="username">
+<label for="password"></label>
+<input type="password" placeholder="Password" name="password" id="password">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" name="" onclick="rememberme()">
+<label for="rememberMe" class="form-check-label" id="check">Ghi nhớ mật khẩu</label>
+
+</div>
+<hr>
+<button type="submit" class="submit"> Login </button>
+</div>
+<div class="register login">
+ <p>Bạn chưa có tài khoản? <a href="form.html">Đăng ký ngay</a>.</p>
+</div>
+</form>
+</body>
+</html>

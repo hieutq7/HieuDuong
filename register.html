@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Nhúng file CSS -->
+<link rel="stylesheet" href="CSS/register.css" />
+
+</head>
+  <body>
+  <!-- Nhúng file JavaScript -->
+    <script language="javascript" src="JS/register.js"></script>
+
+    <form action="login.html" method="POST" onsubmit="return validate()">
+      <div class="register">
+      <h1>Đăng ký</h1>
+      <p>Vui lòng điền thông tin để đăng ký</p>
+      <hr>
+        <label for="username"></label>
+          <input type="text" placeholder="Username" name="username" id="username">
+        <label for="password"></label>
+          <input type="password" placeholder="Password" name="password" id="password">
+        <label for="password-repeat"></label>
+          <input type="password" placeholder="Enter the password" name="password-repeat" id="password-repeat">
+        <label for="Email"></label>
+          <input type="text" placeholder="Email" name="Email" id="Email">
+        <label for="Giới tính">Giới tính &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+          <input name="gender" type="radio" value="Nam" />Nam
+          <input name="gender" type="radio" value="Nữ" />Nữ
+          <input name="gender" type="radio" value="Khác" />Khác <br>
+        <label for="date">Date of Birth &nbsp &nbsp &nbsp </label>
+          <input type="date" name="date" id="date">
+      <hr>
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Tôi đồng ý với Điều Khoản Dịch Vụ và Chính Sách Bảo Mật <a>H&T&H</a></label>
+      <button type="submit" class="submit"> Sumbit </button>
+    </div>
+      <div class="register login">
+        <p>Bạn đã có tài khoản rồi? <a href="dangnhap.html">Đăng nhập</a>.</p>
+      </div>
+    </form>
+  </body>
+</html>
